@@ -54,7 +54,7 @@ body {
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
-    line-height: var(--line-height-base)
+    line-height: var(--line-height-base);
 }
 
 a:link {
@@ -162,9 +162,8 @@ h1, h2, h3, h4, h5, h6 {
 .nav {
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style-type: none;
     text-align: center;
-    
 }
 
 .nav .nav-item {
@@ -196,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0.5rem;
 }
 
-[data-section-theme=“dark”] {
+[data-section-theme="dark"] {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background-color: var(--color-black);
