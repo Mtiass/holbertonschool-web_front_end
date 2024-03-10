@@ -218,13 +218,13 @@ h1, h2, h3, h4, h5, h6 {
     margin: none;
 }
 
-.card-services .a {
+.card-services a {
     display: block;
     padding: 2.0rem;
     background-color: var(--color-light-grey);
 }
 
-.card-services .a:hover {
+.card-services a:hover {
     color: var(--color-white);
     background-color: var(--color-primary);
     text-decoration: none;
